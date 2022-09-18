@@ -1,0 +1,134 @@
+.MainContainer {
+    font-family: "Raleway", sans-serif;
+    background-color: #fbf7f5;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100wh;
+    flex-direction: column;
+}
+
+.FormContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 40vw;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+}
+
+i {
+    color: black;
+}
+
+.formSubmitBtn{
+    text-align: center;
+    background: #141850;
+    color: #fff;
+    border-radius: 10px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 5vh;
+  }
+
+  .main{
+    width: auto;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .formGroup {
+    margin: 20px;
+  }
+
+  .formField {
+    display: block;
+    size: 25px;
+    font-size: 14px;
+    font-family: 'roboto', sans-serif;
+    width: 13vw;
+  }
+
+  .text-divider {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    --text-divider-gap: 1rem;
+  }
+
+.text-divider::before,
+.text-divider::after {
+  content: '';
+  height: 1px;
+  background-color: silver;
+  flex-grow: 1;
+}
+
+.text-divider::before {
+  margin-right: var(--text-divider-gap);
+}
+
+.text-divider::after {
+  margin-left: var(--text-divider-gap);
+}
+
+.forgotpassword{
+    color: #2b6777;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    font-size: 95%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.signup{
+    margin-top: 10px;
+    color: #2b6777;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.formAction {
+    height: 5vh;
+}
+
+.formFieldError {
+    border: 1px solid #e11d48;
+  }
+
+  .formFieldErrorMessage {
+    color: #e11d48;
+  }
+
+  .line {
+    width: 90%;
+    height: 0.3rem;
+    border-radius: 0.8rem;
+    border: none;
+    margin: 1.5rem 0 1rem 0;
+    background: linear-gradient(to right, #14163c, 0%, #03217b, 79%);
+    backdrop-filter: blur(25px);
+  }
+
+  .error {
+    font-size: 12px;
+    color: red;
+  }

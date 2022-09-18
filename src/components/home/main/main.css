@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .categories
+  {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .categories .container-fluid
+  {
+    background-color: black;
+  }
+  
+  .categories .categories_item
+  {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  
+  .categories .categories_large_item
+  {
+    height: auto;
+  }
+  
+  .categories .categories_text
+  {
+    position: absolute;
+    left: 20px;
+    max-width: auto;
+    padding: 1px;
+  }
+  
+  .categories .categories_large_item .categories_text
+  {
+    position: absolute;
+    left: 50px;
+    max-width: 500px;
+  }
+  
+  .categories .categories_large_item .categories_text p
+  {
+    margin-bottom: 15px;
+    color: aliceblue;
+    font-size: 12px;
+  }
+  
+  .categories .categories_large_item .categories_text h1
+  {
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .categories .categories_large_item .categories_text a
+  {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    padding: 0 0 3px;
+    display: inline-block;
+    font-size: 12px;
+  }
+  
+  .categories .categories_text p
+  {
+    margin-bottom: 15px;
+    color: aliceblue;
+    font-size: 12px;
+  }
+  
+  .categories .categories_text h1
+  {
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .categories .categories_text a
+  {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    padding: 0 0 3px;
+    display: inline-block;
+    font-size: 12px;
+  }
+  
+  .categories .categories_item img
+  {
+    opacity: 0.5;
+  }
+  
+  /*------intro------*/
+  .intro
+  {
+    background: #ffff;
+    text-align: center;
+  }
+  
+  .intro h2
+  {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .intro ul li{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 50px;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  
+  .intro .pro h2{
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .protect
+  {
+    text-align: center;
+    background-color: #ffff;
+  }
+  
+  .protect img{
+    margin: 25px;
+  }
+  
+  .protect h2{
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding-bottom: 2%;
+  }
+  
